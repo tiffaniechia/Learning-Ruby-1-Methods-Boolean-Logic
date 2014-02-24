@@ -8,7 +8,7 @@ def provide_mortgage?(salary, deposit, property_value)
   # 	loan_amount=0
   # end
    
-(deposit >= property_value * min_deposit)  &&  (salary * max_multiplier >= loan_amount) || "Not suitable for mortgage" #Extend the method to accept another argument, a boolean value indicating if the borrower is currently bankrupt. Modify the method to never provide a mortgage to a bankrupt person.
+(deposit >= property_value * min_deposit)  &&  (salary * max_multiplier >= loan_amount) || "Not suitable for mortgage" # Assumption: bankrupt if either returns falseExtend the method to accept another argument, a boolean value indicating if the borrower is currently bankrupt. Modify the method to never provide a mortgage to a bankrupt person.
 
 end
 
