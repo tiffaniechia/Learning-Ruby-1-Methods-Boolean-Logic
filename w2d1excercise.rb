@@ -8,7 +8,7 @@ def provide_mortgage?(salary, deposit, property_value)
   # 	loan_amount=0
   # end
    
- applicaation_status = (deposit >= property_value * min_deposit)  &&  (salary * max_multiplier >= loan_amount) || "Not suitable for mortgage"
+(deposit >= property_value * min_deposit)  &&  (salary * max_multiplier >= loan_amount) || "Not suitable for mortgage"
 
 end
 
