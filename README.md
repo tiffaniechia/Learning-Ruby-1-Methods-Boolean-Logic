@@ -2,6 +2,9 @@
 
 The goal of this exercise is to understand the use of boolean logic and to grasp the use of methods in Ruby.
 
+This exercise was created by [Evgeny Shadchnev](https://github.com/shadchnev). 
+
+(Week 2)
 ###Questions:
 1. Take the method provide_mortgage?() from the "Boolean logic" section and decide if it would return true or false for these inputs without running the code:
 salary 30,000, deposit 50,000, property_value 200,000
@@ -19,7 +22,5 @@ salary 25,000, deposit 30,000, property_value 150,000
 4. Extend the method to accept another argument, a boolean value indicating if the borrower is currently bankrupt. Modify the method to never provide a mortgage to a bankrupt person.
 
 
-This exercise was created by [Evgeny Shadchnev](https://github.com/shadchnev).
-
-##Stack:
+##Technologies Used
 - Ruby
